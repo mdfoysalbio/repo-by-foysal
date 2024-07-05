@@ -1,0 +1,29 @@
+nav >ul{
+    display: flex; justify-content: center;
+}
+
+nav li{
+    list-style: none; margin-right: 10px; padding: 5px; 
+}
+
+nav li >a{
+    text-decoration: none;
+}
+nav li>a:hover{
+    background-color: aquamarine;
+}
+
+nav li .hide{
+    display: none;
+}
+nav li:hover .hide{
+    display: block;
+}
+
+.back:hover{
+    background-color: aquamarine;
+}
+
+
+
+

@@ -1,3 +1,45 @@
+
+nav > ul > li{
+    display: inline; margin-left: 25px;
+
+}
+
+nav li > a{
+    text-decoration: none;
+}
+
+.font{
+    text-align:start;
+}
+
+
+footer{
+    text-align: center;
+}
+
+
 div{
     background-color: aquamarine;
 }
+
+.head{
+    background-color: aqua; text-align: center;
+}
+
+#pet{
+    background-color:brown; 
+}
+
+
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+ 
+table{
+    border-collapse:collapse;
+}
+td,th{
+    border: 2px solid black; padding: 5px 10px;
+}
+

@@ -1,0 +1,8 @@
+nav > ul > li{
+    display: inline;margin-left: 25px;
+}
+
+.super{
+
+    background-color: blue; font-size: 30px;
+}
