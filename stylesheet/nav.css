@@ -1,3 +1,5 @@
+
+
 nav >ul{
     display: flex; justify-content: center;
 }
@@ -24,6 +26,193 @@ nav li:hover .hide{
     background-color: aquamarine;
 }
 
+.solid{
+    border: 2px solid green; width: 640px; height: 360px;
+}
+.img{
+    border: 2px solid green;width: 641px; 
+
+}
+
+
+.parent{
+      border: 2px solid yellow;
+      padding: 25px;
+      background-color: yellow;
+      display: flex;
+      gap: 20px;
+      justify-content:space-evenly;
+      height: 350px;
+      align-items: center;
+      flex-direction: column;
+      flex-wrap:wrap;
+      
+      
+}
+
+
+.Child{
+    border: 2px solid yellow;
+    background-color: aquamarine;
+}
+
+
+.hero{
+    
+   
+
+    height: 730px; background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url('../image/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero >.hero-content{
+         width: 532px;
+        
+
+}
+
+.hero >.hero-content >.para{
+    color: rgb(255, 255, 255);
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    /* margin: 3px 0px; */
+}
+
+.hero >.hero-content >.head5{
+    color: rgb(255, 255, 255);
+    font-family: "Work Sans"; 
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 5px 0px;
+}
+
+.hero >.hero-content >.para2{
+    color: rgb(255, 255, 255);
+    font-family: "Work Sans";
+    font-size: 9px;
+    font-weight: 500;
+    line-height: 13px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.btn{
+    border-radius: 4px;border: none;
+    background: rgb(82, 195, 3); padding: 10px 14px 10px 14px;
+    text-align: center;
+    font-family: Work Sans;
+    color: aliceblue;
+    
+}
+
+.btnn{
+    text-align: center; margin-top: 20px;
+}
 
 
 
+
+
+*{
+    /* margin: 0; padding: 0%; */
+    
+}
+
+
+.hero2{
+    height: 555px white;
+}
+
+.hero2 >.headdiv{
+    text-align: center; margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
+
+
+
+.div1{
+    display: flex; justify-content:space-evenly;
+}
+
+.blockdiv{
+    display: block;
+}
+.subdiv1{
+    background-repeat: no-repeat;
+    display: block;
+}
+.subdiv2{
+    background-repeat: no-repeat;
+    display: block;
+}
+.subdiv3{
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.center1{
+    text-align: center;
+}
+.center2{
+    text-align: center;
+}
+
+.center3{
+    text-align: center;
+}
+
+
+.burg{
+    padding: 14px 32px 14px 32px;
+    border-radius: 8px;
+    border: none;
+    background: rgba(82, 195, 3, 0.15);
+    font-weight: bolder;
+    
+}
+
+.kacchi{
+    align-items: center;
+    padding: 14px 32px 14px 32px;
+    border-radius: 8px;
+    border: none;
+    background: rgba(82, 195, 3, 0.15);
+    font-weight: bolder;
+}
+
+.pizza{
+    align-items: center;
+    padding: 14px 32px 14px 32px;
+    border-radius: 8px;
+    border: none;
+    background: rgba(82, 195, 3, 0.15);
+    font-weight: bolder;
+}
+
+.watch{
+    text-align: center;
+}
+.watchon{
+    border-radius: 8px;
+    border: none;
+    background: rgb(82, 195, 3);
+    padding: 14px 25px 14px 25px;
+    color: aliceblue;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+}
